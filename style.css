@@ -5,6 +5,8 @@ body {
 } 
 
 #PetsMod {
+  display: flex;
+  justify-content: center;
   text-align: center;
   line-height: 300px;
   font-weight: bold;
@@ -17,41 +19,36 @@ body {
   font-size: 50px;
 }
 
-.icon {
-  position: relative;
+
+.icon {  
+  display: flex;
+  justify-content: center;
   z-index: 1;
-  background-color: #0e0e0e;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
   margin: 0;
-  align: center;
-  color: lightblue;
-  font-size: 10px;
-  width: 75px;
-  height: 25px;
-  line-height: 25px;
-  border: 2px;
-  border-style: solid;
-  outline-background: black;
-  scale: 2;
-  vertical-align: bottom;
 }
-#download {
-  background-color: #1c9a00;
-  margin-right: auto;
-  left: -15%;
-  margin-left: auto;
-  border-color: #2eff00;
-} #modrinth {
-  background-image: url("https://cdn.modrinth.com/data/sJpOEOM2/9ecec267131a79afff7d74259a21696ddee20614_96.webp");
-  background-size: 50%;
-  background-repeat: no-repeat;
-  border-color: #4a4a4a; 
-  background-position: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -30px;
-} #addons {
+
+.button {
+  display: flex;
+  z-index: 1;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+#fabric {
+  text-align: left;
+}
+
+#neoforge {
+  text-align: center;
+}
+
+#quilt {
+  text-align: right;
+}
+
+#addons {
   font-weight: normal;
   position: relative;
   background-color: #1300ab;
@@ -92,11 +89,59 @@ body {
   border: 1px;
 }
 
-.icon:hover {
-    scale: 2.2;
+#fabric:hover {
+    scale: 1.2;
 }
 
-.icon:active {
+#fabric:active {
+  opacity: 0.75;
+}
+
+#neoforge:hover {
+    scale: 1.2;
+}
+
+#neoforge:active {
+  opacity: 0.75;
+}
+
+#quilt:hover {
+    scale: 1.2;
+}
+
+#quilt:active {
+  opacity: 0.75;
+}
+
+#github:hover {
+  scale: 1.2;
+}
+
+#github:active {
+  opacity: 0.75;
+}
+
+#curseforge:hover {
+  scale: 1.2;
+}
+
+#curseforge:active {
+  opacity: 0.75;
+}
+
+#modrinth:hover {
+  scale: 1.2;
+}
+
+#modrinth:active {
+  opacity: 0.75;
+}
+
+#pets-icon:hover {
+  scale: 1.2;
+}
+
+#pets-icon:active {
   opacity: 0.75;
 }
 
