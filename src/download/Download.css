@@ -1,0 +1,49 @@
+.dropdowns {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-color: #4a4a4a;
+    background-color: #1f1f1f;
+    scale: 2;
+    font-family: Hack, serif;
+}
+
+.dropdowns, #download-button {
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+#version-dropdown {
+    margin-left: 35%;
+}
+
+#modloader-dropdown {
+    margin-left: 45%;
+}
+
+#download-button {
+    font-family: Hack, serif;
+    position: absolute;
+    margin-left: 58%;
+    scale: 2;
+    color: green;
+    background-color: black;
+    fill-opacity: 1;
+    border: 1px darkgreen solid;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.dropdowns:hover, #download-button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#download-button:hover {
+    background-color: yellowgreen;
+    color: black;
+}
+
+#further {
+    line-height: 500%;
+}

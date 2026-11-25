@@ -1,0 +1,85 @@
+.logo {
+}
+
+h1, p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  line-height: 50px;
+  background: linear-gradient(to left, darkblue, lightyellow);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+#boxcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  vertical-align: center;
+  gap: 75px;
+}
+
+.box {
+  color: white;
+  font-family: Hack, serif;
+  width: 250px;
+  height: 325px;
+  display: flex;
+  flex-direction: column;
+  border: 3px #26acd3 solid;
+  padding: 10px;
+  //border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 139, 0.1);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.box:hover {
+  transform: scale(1.1);
+}
+
+.internalbox {
+  text-decoration-line: none;
+  margin-top: 5%;
+  background-color: black;
+  fill-opacity: 1;
+  width: 200px;
+  height: 25px;
+  border: 2px darkgreen solid;
+  color: darkgreen;
+  //border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.internalbox:hover {
+  background-color: yellowgreen;
+  color: black;
+}
+
+#learning-more {
+  display: flex;
+  font-family: Arial, serif;
+  font-size: 16px; !important;
+  margin-left: 50%;
+  margin-right: 5%;
+  justify-content: right;
+  text-align: right;
+}
+
+.box-text {
+  vertical-align: top;
+  margin: 5px;
+}

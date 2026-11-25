@@ -1,0 +1,24 @@
+#navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    border-width: 2px;
+    border-style: solid;
+    color: darkslategray;
+    padding: 20px 2rem;
+    gap: 2rem;
+    font-family: Hack, serif;
+    font-size: 24px;
+}
+
+.nav-links {
+    display: block;
+    gap: 2px;
+    list-style: disc;
+    margin-bottom: 10px;
+}
+
+.home {
+    justify-content: left;
+}
